@@ -1,0 +1,576 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3-dic-2017, 10.21.40
+    Author     : elisa
+*/
+
+/*home page styling*/
+/* simple responsive navigation */
+
+
+ @font-face { 
+	font-family: "arcon" sans-serif; 
+	src: url('arcon/Arcon-Regular.otf'); 
+}
+
+h1{
+    font-size: 90px;
+}
+body{
+    font-family: arcon;
+    
+}
+/*---------------------------------------Nav bar*/
+.nav-pills{
+    color: #78D3FF !important;
+    margin-top: 3%;
+    
+}
+@media (max-width: 500px) {
+    
+    
+.navigation-item{
+        float: left !important;
+    }
+    margin-top: 4%;
+}
+
+.nav-link.active{
+    background-color: #8696FF !important;
+}
+/*-------------------------------------The hero image */
+
+.herotext {
+    font-size: 50px;
+}
+
+.hero-section {
+  background: url("img/Heroimage-100.jpg") no-repeat;
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+.hero-section-text {
+  color: #fefefe;
+  text-shadow: 0px 2px 5px #BCBCBC;
+}
+.hero-section-text h1{
+	font-size: 100px;
+}
+.hero-section-text p{
+	font-size: 50px;
+}
+/*------------------------------------------countdown*/
+#demo{
+    color: black;
+    font-size: 40px;
+    font-weight: 100;
+}
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 0px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #FFAF00;
+    display: inline-block;
+}
+
+section.calc-method2 { 
+  background-color: #f4f4f4;
+  width: 700px;
+  margin: auto;
+  margin-top: 3%;
+  box-sizing: content-box;
+  padding: 100px calc(50% - 350px);
+}
+section.calc-method2{
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+  section.calc-method2 {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+}
+
+
+
+/*------------------------------------------text*/
+.info-text{
+    text-align: center;
+}
+
+
+
+.text-padding{
+    padding-bottom: 3%;
+}
+
+
+.justify{
+    text-justify: auto;
+    margin: 3%;
+}
+
+.center{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.tab-text{
+	width: 40%;
+	margin: auto;
+}
+@media screen and (max-width: 750px)  {
+  .tab-text{
+    width: 75% !important;
+	}
+}
+
+
+
+/*---------------------------------Infographic*/
+
+/*----------------------------------Buttons*/
+.button {
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    ca
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    
+}
+.button1{
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+   background-color: #8696FF;
+    
+}
+.button2{
+    border-radius: 15px;
+    background-color: white;
+    color: #8696FF;
+}
+/*---------------------------------Icons*/
+.icon{
+    min-width: 60px;
+    max-width: 90px;
+    padding: 3% 0 3% 0;
+    
+}
+
+/*----------------------------------Video*/
+
+video {
+    width: 100%;
+    height: auto;
+    margin: 3% 0 3% 0;
+}
+/*---------------------------------Slider Css*/
+.carousel-caption{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+   
+}
+
+.carousel{
+    margin: 3% 0 3% 0;
+}
+/*----------------------------------Contact form*/
+
+.contact-container{
+    margin-bottom: 4%;
+}
+.formbox {
+  max-width:100%;
+  margin:0 auto;
+  text-align:center;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+  background-color:#f4f4f4;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  
+}
+.head {
+  -webkit-border-radius:6px 6px 0px 0px;
+  -moz-border-radius:6px 6px 0px 0px;
+  border-radius:6px 6px 0px 0px;
+  color: #8696FF;
+  margin-top: 1%;
+  margin: auto;
+  
+}
+
+h2 {
+  text-align:center;
+  padding:18px 0 18px 0;
+  font-size: 1.4em;
+  color: #8696FF !important; 
+}
+
+input {
+  margin-bottom:10px;
+}
+textarea {
+  height:100px;
+  margin-bottom:10px;
+}
+input:first-of-type
+{
+  margin-top:35px;
+}
+input, textarea {
+  font-size: 1em;
+  padding: 15px 10px 10px;
+  border: 1px solid #cecece;
+  background: #d7d7d7;
+  color:#FAFAFA;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 600px;
+}
+::-webkit-input-placeholder {
+   color: #FAFAFA;
+}
+:-moz-placeholder {
+   color: #FAFAFA;  
+}
+::-moz-placeholder {
+   color: #FAFAFA; 
+}
+:-ms-input-placeholder {  
+   color: #FAFAFA;  
+}
+.button-form {
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: inline-block;
+  cursor: pointer;
+
+    border-radius: 15px;
+   background-color: #8696FF;;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 3% 3px;
+  padding: 12px 50px;
+  background-color: #8696FF;
+  color: white;
+  
+}
+
+label.error {
+    
+    font-size:1em;
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#d89c9c;
+    width: 80%;
+    margin:auto;
+    color: #FAFAFA;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+}
+
+.message {
+    
+    font-size:1.1em;
+    display:none;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#2ABCA7;
+    width: 80%;
+    margin:auto;
+    color: #FAFAFA;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+}
+
+
+/*---------------------------------media queries */
+
+
+@media (max-width: 700px) {
+  label.error {
+    width: 90%;
+  }
+  input, textarea {
+    width: 90%;
+  }
+ 
+  body {
+  padding-top:10px;
+  }  
+}
+
+
+/*----------------------------------------footer*/
+
+#footer {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2% 0 2% 0;
+    
+}
+.left a {
+    text-decoration: none;
+    color: black;
+}
+
+.right a{
+    text-decoration: none;
+    color: black;
+}
+
+.middle a{
+    text-decoration: none;
+    color: black;
+}
+
+.middle, .right, .left{
+    width: 25%;
+    
+    
+    text-align: center;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 600px) {
+.footer{
+  flex-direction: column;
+}
+
+}
+
+
+
+/*---------------------------------------------------------------------FAQ styling----------------------------------------------------------------------------------------*/
+.type1{
+	background-color: #f6f6f6;
+	background-blend-mode: overlay;
+}
+
+.mb-0 > a {
+	color: #8696FF;
+}
+.card-faq{
+	margin-bottom: 1.5em;
+	border: none;
+        
+}
+
+.faq{
+    margin: auto;
+    padding: 0 3% 0 3%;
+}
+
+
+.container h5{
+    color: white;
+}
+.hero-faq{
+    width: 100%;
+    height: 80vh;
+}
+
+
+/*---------------------------------------------------------------------CONTACT STYLING------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------STORY STYLING--------------------------------------------------------*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+  
+  font-family: Arcon, Verdana, sans-serif;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #f6f6f6;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container1 {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container1::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background: linear-gradient(#78D3FF,#8696ff);
+  border: 4px solid #f6f6f6;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: #F6f6f6;
+  position: relative;
+  border-radius: 6px;
+}
+.content h2{
+	color: #8696FF;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media all and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .container1 {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure that all arrows are pointing leftwards */
+  .container1::before {
+    left: 60px;
+    border: medium solid #F6F6F6;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #f6f6f6 transparent transparent;
+  }
+
+/* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+
+/*-----------------------Cards*/
+
+.card{
+    max-width: 250px !important;
+    text-align: center;
+}
+.margin-cards{
+    margin: 3% 0 3% 0 ;
+}
+
+.card{
+    border: none;
+    padding: 3% 0 3% 0;
+}
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*-----------cookie*/
+.cc-color-override--509969332 .cc-btn {
+    background-color: rgb(134, 150, 255);
+    border-color: transparent;
+    color: white;
+}
+
